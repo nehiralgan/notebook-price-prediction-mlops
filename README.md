@@ -26,22 +26,6 @@ Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system
 
 ---
 
-## 📁 Project Directory Structure
-
-
-├── images/                  # Screenshots used within the README
-│   ├── database_view.png
-│   ├── mlflow_dashboard.png
-│   └── fastapi_swagger.png
-├── api.py                   # FastAPI and live prediction service code
-├── scraper.py               # Automated web scraping and database pipeline code
-├── train.py                 # Feature engineering, model training, and MLflow code
-├── daily_prices.db          # SQLite relational database file
-├── requirements.txt         # Required Python libraries for the project
-└── Dockerfile               # Configuration file for containerization
-
----
-
 ## 👁️ Project Screenshots
 
 **1. SQLite Relational Database View**
