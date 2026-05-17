@@ -28,7 +28,7 @@ Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system
 
 ## 📁 Project Directory Structure
 
-```text
+
 ├── images/                  # Screenshots used within the README
 │   ├── database_view.png
 │   ├── mlflow_dashboard.png
@@ -39,6 +39,8 @@ Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system
 ├── daily_prices.db          # SQLite relational database file
 ├── requirements.txt         # Required Python libraries for the project
 └── Dockerfile               # Configuration file for containerization
+
+---
 
 ## 👁️ Project Screenshots
 
