@@ -1,5 +1,13 @@
 # 💻 End-to-End MLOps: Notebook Price Prediction and Tracking System
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
 This project is an **end-to-end MLOps (Machine Learning Operations)** pipeline that begins with real-time web scraping from a popular e-commerce platform (Vatan Bilgisayar), cleans and stores the data in a relational database, trains a machine learning model to predict prices, and deploys the model as a publicly accessible web service (API).
 
 Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system simulates all stages of data engineering, feature engineering, experiment tracking, and deployment within a local architecture.
