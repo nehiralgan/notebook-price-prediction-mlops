@@ -34,7 +34,7 @@ Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system
 
 ---
 
-## 👁️ About the Project 
+## 👁️ About This Project 
 
 **1. SQLite Relational Database View**
 The raw data table collected, cleaned, and prepared for feature engineering by the web scraper:
