@@ -22,11 +22,11 @@ Unlike traditional "copy-paste pre-existing dataset (CSV)" projects, this system
 2. **Smart Data Control:** To prevent database bloating and duplicate records when executed multiple times within the same day, the system implements an in-memory *Smart Memory (Seen Set)* mechanism along with a unique constraint at the SQLite database level.
 3. **Feature Engineering:** Using `RegEx` (Regular Expressions), textual raw product names are parsed dynamically into structured numerical and categorical features that the model can understand: **Brand, Processor Type, RAM Capacity, and SSD Size**.
 4. **Experiment Tracking & Logging (MLflow):** Every time the model is trained, the hyperparameters used, data volume, **MAE (Mean Absolute Error)**, and **R2 Score** are versioned and logged directly into `MLflow`.
-5. **Live API Serving:** The trained Random Forest model is served behind a `FastAPI` instance. An interactive endpoint is exposed, allowing users to input hardware specifications and receive real-time market value predictions from the AI model.
+5. **Live API Serving:** The trained Random Forest model is served behind a `FastAPI` instance. An interactive endpoint is exposed, allowing users to input hardware specifications and receive real-time market value predictions from the AI model.git add 
 
 ---
 
-## 👁️ Project Screenshots
+## 👁️ About the Project 
 
 **1. SQLite Relational Database View**
 The raw data table collected, cleaned, and prepared for feature engineering by the web scraper:
